@@ -1,0 +1,11 @@
+########################
+#User-Data
+########################
+<powershell>
+Initialize-ECSAgent -Cluster demo-ecs -EnableTaskIAMRole -LoggingDrivers '["json-file","awslogs"]'
+</powershell>
+
+##############
+# Windows AMI
+##############
+ami-017fc500eebcdffab
